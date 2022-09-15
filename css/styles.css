@@ -1,0 +1,38 @@
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px;
+   
+}
+
+
+.dice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.dice_test{
+
+}
+
+.dot{
+    width: 50%;
+    height: 60%;
+    border-radius: 50%;
+    background-color: black;
+}
